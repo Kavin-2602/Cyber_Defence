@@ -1,0 +1,24 @@
+.stat-card.low::before {
+    background: linear-gradient(90deg, var(--severity-low), #16a34a);
+}
+
+.chart-empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 280px;
+    color: var(--text-muted);
+    font-family: var(--font-heading);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Recharts override */
+.recharts-legend-item-text {
+    color: var(--text-secondary) !important;
+    font-family: var(--font-heading) !important;
+    font-size: 0.8rem !important;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}

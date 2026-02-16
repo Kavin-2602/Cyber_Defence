@@ -1,0 +1,32 @@
+.signup-page {
+    background:
+        radial-gradient(ellipse at 50% 0%, rgba(20, 184, 166, 0.1) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 90%, rgba(59, 130, 246, 0.08) 0%, transparent 50%),
+        var(--bg-primary);
+}
+
+.signup-page .bg-pattern {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image:
+        repeating-linear-gradient(45deg,
+            transparent,
+            transparent 40px,
+            rgba(255, 255, 255, 0.01) 40px,
+            rgba(255, 255, 255, 0.01) 80px);
+    pointer-events: none;
+}
+
+.signup-page .auth-card::before {
+    background: linear-gradient(90deg, var(--accent-teal), var(--accent-blue), var(--accent-teal));
+}
+
+.btn-full {
+    width: 100%;
+    margin-top: 0.5rem;
+    padding: 0.85rem;
+    font-size: 1rem;
+}
