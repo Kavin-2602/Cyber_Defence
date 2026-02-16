@@ -1,0 +1,53 @@
+# JVM
+.class
+.log
+.ctxt
+.jar
+.war
+.nar
+.ear
+.zip
+.tar.gz
+.rar
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.properties
+
+# Gradle
+.gradle/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.springBeans
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# H2 Database
+*.mv.db
+*.trace.db
+cyberdb.mv.db
+cyberdb.trace.db
