@@ -1,0 +1,6 @@
+{
+    "version": 2,
+    "buildCommand": "npm run build --prefix defence-frontend",
+    "installCommand": "npm install --prefix defence-frontend",
+    "outputDirectory": "defence-frontend/build"
+}
