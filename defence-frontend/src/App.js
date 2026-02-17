@@ -17,6 +17,7 @@ import ComplaintList from './pages/ComplaintList';
 import Profile from './pages/Profile';
 import AdminPanel from './pages/AdminPanel';
 import AccessDenied from './pages/AccessDenied';
+import DefenceBot from './components/DefenceBot';
 
 function App() {
     return (
@@ -54,6 +55,7 @@ function App() {
                     pauseOnHover
                     theme="dark"
                 />
+                <DefenceBot />
             </BrowserRouter>
         </AuthProvider>
     );
